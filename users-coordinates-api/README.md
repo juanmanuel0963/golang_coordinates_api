@@ -46,7 +46,6 @@ Please organize, design, test and document your code as if it were going into pr
 
 All the best and happy coding,
 
-The sFOX Team 
 
 ## User Stories
 
