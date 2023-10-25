@@ -1,0 +1,122 @@
+openapi: 3.0.3
+info:
+  title: Users Coordinates API
+  version: "1.0"
+servers:
+- url: http://localhost:8080
+tags:
+  - name: UserCoordinates
+    description: User Coordinates related operations
+paths:
+  /userscoordinates/filter:
+    post:
+      tags:
+      - UserCoordinates
+      summary: Filter a file of users' coordinates
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary              
+                maxdistance:
+                  type: number
+                  format: float
+                  description: The maximum distance for filtering coordinates 
+            example:
+              file: "customers.txt"
+              maxdistance: 100.0   
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Status message
+                  count:
+                    type: integer
+                    description: Number of filtered coordinates
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/UserCoordinates'   
+  /userscoordinates/:  
+    post:
+      tags:
+      - UserCoordinates    
+      summary: Create UserCoordinates
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserCoordinates'
+            example:
+              Id: 1
+              Name: "John Doe"
+              Latitude: "53.12345"
+              Longitude: "-6.98765"
+      responses:
+        '201':
+          description: User Coordinates created successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Status message              
+                  item:
+                      $ref: '#/components/schemas/UserCoordinates'                     
+    get:
+      tags:
+      - UserCoordinates    
+      summary: Get All UserCoordinates
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: Status message
+                  count:
+                    type: integer
+                    description: Number of filtered coordinates
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/UserCoordinates'   
+components:
+  schemas:
+    UserCoordinates:
+      type: object
+      properties:
+        Id:
+          type: integer
+          description: The ID of the user coordinates
+        Name:
+          type: string
+          description: The name of the user
+        Latitude:
+          type: string
+          format: double
+          description: The latitude of the user coordinates
+        Longitude:
+          type: string
+          format: double
+          description: The longitude of the user coordinates          
+        Distance:
+          type: string
+          format: double
+          description: The distance to the reference point           

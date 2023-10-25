@@ -1,0 +1,6 @@
+tolerance: "0.01"
+earthRadius: "6371"
+port: "8080"
+maxDistance: "100"
+referencePointLatitude: "53.339428"
+referencePointLongitude: "-6.257664"

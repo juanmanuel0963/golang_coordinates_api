@@ -1,0 +1,7 @@
+ERROR: 2023/10/21 09:19:41 logger.go:39: 2023-10-21 09:19:41 - FILTER_ERROR_BINDING_INPUT_FILE. Key: 'txtUploadInput.TxtFile' Error:Field validation for 'TxtFile' failed on the 'required' tag.
+ERROR: 2023/10/21 10:00:56 logger.go:39: 2023-10-21 10:00:56 - PK_CONTROLLERS_FUNC_FILTER_ERROR_BINDING_INPUT_FILE. unexpected end of JSON input.
+ERROR: 2023/10/21 10:01:18 logger.go:39: 2023-10-21 10:01:18 - PK_CONTROLLERS_FUNC_FILTER_ERROR_BINDING_MAXDISTANCE. Key: 'maxDistanceInput.TextValue' Error:Field validation for 'TextValue' failed on the 'required' tag.
+ERROR: 2023/10/21 10:01:35 logger.go:39: 2023-10-21 10:01:35 - PK_CONTROLLERS_FUNC_FILTER_ERROR_CASTING_MAXDISTANCE. strconv.ParseFloat: parsing "444555fff": invalid syntax.
+ERROR: 2023/10/21 12:29:17 logger.go:39: 2023-10-21 12:29:17 - PK_CONTROLLERS_FUNC_CREATE_ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/21 12:29:49 logger.go:39: 2023-10-21 12:29:49 - PK_CONTROLLERS_FUNC_CREATE_ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/21 14:49:49 logger.go:39: 2023-10-21 14:49:49 - PK_MAIN_FC_MAIN_ERROR_STARTING_GIN_SERVER. listen tcp :8080: bind: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto).

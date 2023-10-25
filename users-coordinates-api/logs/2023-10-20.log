@@ -1,0 +1,18 @@
+ERROR: 2023/10/20 19:39:01 logger.go:38: 2023-10-20 19:39:01 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/20 19:40:46 logger.go:38: 2023-10-20 19:40:46 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/20 19:41:43 logger.go:38: 2023-10-20 19:41:43 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/20 19:42:22 logger.go:38: 2023-10-20 19:42:22 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/20 19:42:45 logger.go:38: 2023-10-20 19:42:45 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal unquoted value into float64.
+ERROR: 2023/10/20 19:47:57 logger.go:38: 2023-10-20 19:47:57 - ERROR_BINDING_INPUT_FILE. unexpected end of JSON input.
+ERROR: 2023/10/20 19:48:58 logger.go:38: 2023-10-20 19:48:58 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal "string" into float64.
+ERROR: 2023/10/20 20:48:41 logger.go:38: 2023-10-20 20:48:41 - ERROR_BINDING_MAXDISTANCE. Key: 'maxDistanceInput.TextValue' Error:Field validation for 'TextValue' failed on the 'required' tag.
+ERROR: 2023/10/20 20:48:52 logger.go:38: 2023-10-20 20:48:52 - ERROR_CASTING_MAXDISTANCE. strconv.ParseFloat: parsing "dfdf": invalid syntax.
+ERROR: 2023/10/20 20:49:41 logger.go:38: 2023-10-20 20:49:41 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal "string" into float64.
+ERROR: 2023/10/20 21:08:17 logger.go:38: 2023-10-20 21:08:17 - ERROR_BINDING_MAXDISTANCE. open ../data/customers.txt: El sistema no puede encontrar la ruta especificada..
+ERROR: 2023/10/20 21:13:22 logger.go:38: 2023-10-20 21:13:22 - ERROR_BINDING_INPUT_FILE. Key: 'txtUploadInput.TxtFile' Error:Field validation for 'TxtFile' failed on the 'required' tag.
+ERROR: 2023/10/20 21:17:25 logger.go:38: 2023-10-20 21:17:25 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal "string" into float64.
+ERROR: 2023/10/20 21:17:28 logger.go:38: 2023-10-20 21:17:28 - ERROR_BINDING_USERCOORDINATES. json: invalid use of ,string struct tag, trying to unmarshal "string" into float64.
+ERROR: 2023/10/20 21:17:48 logger.go:38: 2023-10-20 21:17:48 - ERROR_BINDING_INPUT_FILE. unexpected end of JSON input.
+ERROR: 2023/10/20 21:42:51 logger.go:39: 2023-10-20 21:42:51 - ERROR_CASTING_MAXDISTANCE. strconv.ParseFloat: parsing "200ddd": invalid syntax.
+ERROR: 2023/10/20 21:42:58 logger.go:39: 2023-10-20 21:42:58 - ERROR_CASTING_MAXDISTANCE. strconv.ParseFloat: parsing "200ddd": invalid syntax.
+ERROR: 2023/10/20 21:43:06 logger.go:39: 2023-10-20 21:43:06 - ERROR_BINDING_INPUT_FILE. unexpected end of JSON input.

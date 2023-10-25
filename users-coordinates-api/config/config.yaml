@@ -1,0 +1,6 @@
+port: 8080
+maxDistance: 100
+referencePointLatitude: 53.339428
+referencePointLongitude: -6.257664
+earthRadius: 6371
+tolerance: 0.01

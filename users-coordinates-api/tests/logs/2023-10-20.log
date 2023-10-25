@@ -1,0 +1,6 @@
+ERROR: 2023/10/20 17:08:39 logger.go:38: 2023-10-20 17:08:39 - This is a test error message.
+ERROR: 2023/10/20 17:08:39 logger.go:38: 2023-10-20 17:08:39 - Error message with log file write failure.
+ERROR: 2023/10/20 21:18:42 logger.go:38: 2023-10-20 21:18:42 - This is a test error message.
+ERROR: 2023/10/20 21:18:42 logger.go:38: 2023-10-20 21:18:42 - Error message with log file write failure.
+ERROR: 2023/10/20 22:04:29 logger.go:39: 2023-10-20 22:04:29 - This is a test error message.
+ERROR: 2023/10/20 22:04:29 logger.go:39: 2023-10-20 22:04:29 - Error message with log file write failure.
